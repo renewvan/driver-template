@@ -51,7 +51,7 @@ def test_scaffold_produces_expected_layout(tmp_path: Path) -> None:
     assert "driver-gps" in readme
 
     license_text = (target / "LICENSE").read_text()
-    assert "RenewVan" in license_text
+    assert "Renewvan" in license_text
 
 
 def test_scaffold_rejects_invalid_entity_slug(tmp_path: Path) -> None:

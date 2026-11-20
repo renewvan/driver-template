@@ -1,6 +1,6 @@
 # driver-template
 
-The reference shape for every `driver-*` repo in the **renewvan** ecosystem: a pure-function core, a
+The reference shape for every `driver-*` repo in the **Renewvan** ecosystem: a pure-function core, a
 layered `config.default.ini` / `config.ini` loader, a persistent MQTT publisher with LWT that publishes
 retained Driver info before `online`, a thin publish loop, a systemd unit, a Dockerfile and CI (tests,
 manifest gate, release). Contract: `hub/docs/authoring-a-driver.md`.
